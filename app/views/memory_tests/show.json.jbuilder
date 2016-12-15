@@ -1,0 +1,1 @@
+json.partial! "memory_tests/memory_test", memory_test: @memory_test

@@ -1,0 +1,1 @@
+json.array! @memory_checks, partial: 'memory_checks/memory_check', as: :memory_check

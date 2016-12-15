@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  qName: MyString
+  qBirthday: MyString
+  qSuburb: MyString
+  qPet: MyString
+  qSchool: MyString
+  qJob: MyString
+  qGrandchildren: MyString
+  user_id: 
+  score: 1
+
+two:
+  qName: MyString
+  qBirthday: MyString
+  qSuburb: MyString
+  qPet: MyString
+  qSchool: MyString
+  qJob: MyString
+  qGrandchildren: MyString
+  user_id: 
+  score: 1

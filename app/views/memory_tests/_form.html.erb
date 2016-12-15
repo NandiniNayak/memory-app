@@ -1,0 +1,17 @@
+<%= simple_form_for(@memory_test) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :qName, label: "What is your name?" %>
+    <%= f.input :qBirthday, label: "What is your birthday?" %>
+    <%= f.input :qSuburb, label: "In which suburb was your first home?" %>
+    <%= f.input :qPet, label: "What was the name of your first pet?" %>
+    <%= f.input :qSchool, label: "Where did your children go to school?" %>
+    <%= f.input :qJob, label: "What was the last job of your career?" %>
+    <%= f.input :qGrandchildren, label: "How many grandchildren do you have?" %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, "Submit", class: "btn btn-success" %>
+  </div>
+<% end %>

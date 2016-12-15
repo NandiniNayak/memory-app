@@ -1,0 +1,1 @@
+json.array! @memory_tests, partial: 'memory_tests/memory_test', as: :memory_test

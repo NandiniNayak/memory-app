@@ -1,0 +1,10 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.btn-success {
+    color: #fff;
+    background-color: purple;
+    border-color: purple;
+}
